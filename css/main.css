@@ -11,6 +11,15 @@
     background-size: cover;
     position: relative;
 }
+.headerContact{
+    min-height: 250px;
+    width: 100%;
+    background-image: url(../assets/Assets/Images/headerbackBack.png);
+    background-position: center;
+    background-size: cover;
+    position: relative; 
+
+}
 
 nav{
     display: flex;
@@ -19,7 +28,7 @@ nav{
     align-items: center;
     background-color: rgba(255, 255, 255, 0.559);
     border-radius: 35px;
-    margin-top: 20px;
+    margin-top: 0px;
     margin-left: 50px;
     margin-right: 50px;
     
@@ -33,6 +42,7 @@ nav img{
 .nav-links{
     flex: 1;
     text-align: center;
+    
     
 }
 
@@ -359,4 +369,31 @@ ul {
 .flexItem5 a.imgFooter img{
     width: 250px;
     margin-bottom: 20px;
+}
+
+
+
+.middle p{
+    font-family: 'Porter sans Block';
+    font-size:30px;
+    color: rgba(255, 255, 255, 0.76);
+}    
+
+.contactPage{
+    padding-top: 50px;
+}
+
+.middleBottom p{
+    font-family: 'Porter sans Block';
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.76);
+}  
+
+.contact1 h2{
+    color: #3c0f55;
+    margin-bottom: 20px;
+}
+
+.contact1 p{
+    color: #3434348e;
 }

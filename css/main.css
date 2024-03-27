@@ -6,10 +6,12 @@
 .header{
     min-height: 100dvh;
     width: 100%;
+    height: 100vh;
     background-image: url(../assets/Assets/Images/homePageHeader.png);
     background-position: center;
     background-size: cover;
     position: relative;
+    padding-top: 20px;
 }
 .headerContact{
     min-height: 250px;
@@ -23,18 +25,19 @@
 
 nav{
     display: flex;
-    padding: 10px;
     justify-content: space-between;
     align-items: center;
     background-color: rgba(255, 255, 255, 0.559);
     border-radius: 35px;
-    margin-top: 0px;
+
     margin-left: 50px;
     margin-right: 50px;
+
     
 }
 nav img{
     width: 200px;
+    margin-left: 50px;
 
 
 }
@@ -50,12 +53,13 @@ nav img{
     list-style-type: none;
     display: inline-block;
     padding: 15px;
-    position: relative;
+    margin-top: 10px;
+   
 } 
 .nav-links ul li a {
     color: rgb(0, 0, 0);
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .nav-links ul li::after{
@@ -82,8 +86,12 @@ nav img{
     border: none;
     margin-right: 16px;
     font-size: 17px;
+    margin-top: 20px;
+    margin-right: 50px;
+    border-radius: 10px;
   }
 
+  
   .textOverlay{
     position: relative;
     text-align: center;
@@ -135,14 +143,6 @@ nav img{
 
 }
 
-@media(max-width:800px){
-    .flexContainer{
-        flex-direction: column;
-    }
-    .header{
-        height: auto;
-    }
-}
 
 .flexContainer{
     display: flex;
@@ -153,14 +153,6 @@ nav img{
     align-items: center;
 }
 
-@media(max-width:800px){
-    .flexContainer{
-        flex-direction: column;
-    }
-    .flexItem3 img{
-        height: auto;
-    }
-}
 
 .flexItem1{
     padding: 65px;

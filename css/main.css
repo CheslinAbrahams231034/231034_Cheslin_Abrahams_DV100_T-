@@ -14,12 +14,13 @@
     padding-top: 20px;
 }
 .headerContact{
-    min-height: 250px;
     width: 100%;
+    height: 250px;
     background-image: url(../assets/Assets/Images/headerbackBack.png);
     background-position: center;
     background-size: cover;
     position: relative; 
+    padding-top: 20px;
 
 }
 

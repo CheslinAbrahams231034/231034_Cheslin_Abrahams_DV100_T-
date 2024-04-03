@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+@font-face{ 
+    font-family: 'Poppins';
+    src: url(../assets/Assets/Fonts/Poppins/Poppins-Light.ttf) format("tiff");
+}
+
+
 .header{
     min-height: 100dvh;
     width: 100%;
@@ -127,7 +133,7 @@ nav img{
 }  
 
 .lowerText p{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Poppins';
     font-size: 25px;
     font-weight: 700;
     color: #3c0f55;
@@ -167,7 +173,7 @@ nav img{
 }
 
 .flexItem1 h2{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Poppins' static;
     font-weight: bold;
     color: #fcfcfc;
 }
@@ -183,7 +189,7 @@ nav img{
 
 
  .flexItem1 a{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Poppins' static;
     font-size: 12px;
     font-weight: bold;
     background-color: #f44336;
@@ -206,14 +212,14 @@ nav img{
 }
 
 .flexItem2 h3{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Poppins' static;
     font-weight: bold;
     color: #fc43bf;
     margin-bottom: 25px;
 }
 
 .flexItem2 h2{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Poppins' static;
     font-weight: bold;
     color:#3c0f55;
 }
@@ -228,7 +234,7 @@ nav img{
 }
 
 .flexItem3 h3{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Poppins' static;
     font-weight: bold;
     color: #fc43bf;
     margin-bottom: 25px;
@@ -237,7 +243,7 @@ nav img{
 }
 
 .flexItem3 h2{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Poppins' static;
     font-weight: bold;
     color:#fcfcfc;
     text-align: center;
@@ -265,7 +271,7 @@ nav img{
 
 .flexItem4 h4{
     color: #fcfcfc;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Poppins' static;
     font-size: 20px;
     margin-right: 40px;
     text-align: center;
@@ -274,7 +280,7 @@ nav img{
 .flexItem4 p{
 
     color: #fcfcfc;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Poppins' static;
     font-size: 16px;
     text-align: center;
     padding: 13px;
@@ -283,7 +289,7 @@ nav img{
 }
 
 .flexItem4 a{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Poppins' static;
     font-size: 12px;
     font-weight: bold;
     background-color: #f44336;
@@ -451,7 +457,7 @@ ul {
 
 #contact p{
     color: #fcfcfc;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Poppins' static;
     font-weight: 400;
     padding: 10px;
 }
@@ -460,7 +466,7 @@ ul {
 #contact h3{
     color:#ffffff;
     display: block;
-    font-family: 'roboto' sans-serif;
+    font-family: 'Poppins' static;
     font-size: 20px;
     font-weight: 400;
     width: 200px;
@@ -468,7 +474,7 @@ ul {
 }   
 
 #contact input, #contact textarea, #contact button{
-    font-family: 'roboto' sans-serif;
+    font-family: 'Poppins' static;
     font-size: 14px;
     font-weight: 400;
 }
@@ -529,21 +535,21 @@ fieldset{
 }
 
 .flexItem6 h3{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Poppins' static;
     font-weight: bold;
     color: #fc43bf;
     margin-bottom: 25px;
 }
 
 .flexItem6 h2{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Poppins' static;
     font-weight: bold;
     color:#3c0f55;
     padding-bottom: 10px;
 }
 
 .flexItem6 h4{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Poppins' static;
     font-weight: bold;
     color: #fc43bf;
     margin-bottom: 10px;
@@ -561,11 +567,11 @@ fieldset{
     text-align: justify;
     justify-content: center;
     align-items: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Poppins' static;
 }
 
 .flexItem7 a{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Poppins' static;
     font-size: 12px;
     font-weight: bold;
     background-color: #f44336;
@@ -583,7 +589,7 @@ fieldset{
 }
 
 .flexItem7 a1{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Poppins' static;
     font-size: 12px;
     font-weight: bold;
     background-color:#3c0f55;
@@ -623,7 +629,7 @@ fieldset{
 
 .flexItem7 h2{
     margin-left: 50px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Poppins' static;
     font-size: 35px;
 }
 
@@ -655,7 +661,7 @@ fieldset{
     justify-content: center;
     align-items: center;
     background-color: #3c0f55;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Poppins' static;
 }
 .flexItem8 hr{
     color: #2f2f2f;
@@ -665,7 +671,7 @@ fieldset{
 }
 
 .flexItem8 a{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Poppins' static;
     font-size: 12px;
     font-weight: bold;
     background-color: #f44336;
@@ -683,7 +689,7 @@ fieldset{
 }
 
 .flexItem8 a1{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Poppins' static;
     font-size: 12px;
     font-weight: bold;
     background-color:#3fabc9;
@@ -714,7 +720,7 @@ fieldset{
 
 .flexItem8 h2{
     margin-left: 50px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Poppins' static;
     font-size: 35px;
     color: #fcfcfc;
 }
@@ -733,7 +739,7 @@ fieldset{
 }
 
 .flexItem8 a3{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Poppins' static;
     font-size: 12px;
     font-weight: bold;
     background-color: #f4433685;
